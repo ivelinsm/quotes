@@ -3,7 +3,7 @@ import React from "react";
 class Quote extends React.Component {
   render() {
     return (<div>
-      <div id="text"><i class="fas fa-quote-left"></i><span> </span>
+      <div id="text"><i class="fas fa-quote-left x2"></i><span> </span>
         {this.props.quote}
       </div>
       <div id="author">

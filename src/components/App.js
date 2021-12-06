@@ -44,11 +44,12 @@ class App extends React.Component {
           quote: response.data.result.quote,
           author: response.data.result.author
         });
-      })
+      });
+      color = colors[Math.floor(Math.random() * colors.length)];
+      this.changeTheme()
     }
   
     componentDidMount(){
-      this.changeTheme();
       this.getNewQuote();
     }
 
