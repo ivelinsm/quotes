@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+:root{
+    --main-color: rgb(28, 2, 121);
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: var(--main-color);
+    font-size: 22px;
+    width: 100%;
+}
+
+#quote-box{
+    background-color: white;
+    max-width: 700px;
+    min-width: 550px;
+    padding: 36px;
+    margin:5px 80px;
+    border-radius: 4px;
+}
+
+#text, #text > i{
+    color:var(--main-color);
+}
+
+#author{
+    text-align: end;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:6px;
+    color:var(--main-color);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#tweet-quote{
+    background-color: var(--main-color);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#tweet-quote > i{
+    color:white;
+}
+
+#new-quote{
+    background-color: var(--main-color);
+    color:white;
+    font-family: 'Raleway';
+    padding: 6px 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+#new-quote:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
+#tweet-quote:hover{
+    opacity: 90%;
+}
