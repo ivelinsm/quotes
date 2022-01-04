@@ -7,7 +7,6 @@ This is a solution to the [Build a Random Quote Machine Project](https://www.fre
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -20,7 +19,7 @@ Build a Random Quote Machine
 
 You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.
 
-Full instructions and user stories [here.](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
+User stories [here.](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
 
 ### Screenshot
 
@@ -31,11 +30,6 @@ Full instructions and user stories [here.](https://www.freecodecamp.org/learn/fr
 - Solution URL: [GitHub](https://github.com/ivelinsm/quotes)
 - Live Site URL: [Netlify](https://tender-johnson-2e114b.netlify.app/)
 
-## My process
-
-  1. Started with the HTML and for the first time I tried to follow the BEM methodology, although the challenge is small and its structure is simple.
-  2. Looked through both versions to take some notes for the CSS part and decided to use both Grid and Flex.
-  3. Wrote the code.
 
 ### Built with
 
