@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# freeCodeCamp - Front End Development Libraries Projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-testtesttest
-## Available Scripts
+This is a solution to the [Build a Random Quote Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine). 
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Build a Random Quote Machine
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks.
 
-### `npm run build`
+Full instructions and user stories [here.](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](./public/screenshot.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL: [GitHub](https://github.com/ivelinsm/quotes)
+- Live Site URL: [Netlify](https://tender-johnson-2e114b.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## My process
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  1. Started with the HTML and for the first time I tried to follow the BEM methodology, although the challenge is small and its structure is simple.
+  2. Looked through both versions to take some notes for the CSS part and decided to use both Grid and Flex.
+  3. Wrote the code.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Built with
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- React
 
-## Learn More
+### What I learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I had tons of problems as this was my first project of 5 to finish the Front End Development Libraries Course on freeCodeCamp
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. The biggest challenge was to get the quotes. There was an easy approach to the problem using an array of hard-coded quotes or using the api once to get multiple quotes and assign them to an array, but I decided to do it a little bit harder and make a request everytime the "New Quote" button is pressed. This way I practiced working with apis more.
 
-### Code Splitting
+2. I learned more about Axios and feel well prepared to use it in future projects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. The third challenge was to make the "Share" button, because this was my first time using such a button. 
 
-### Analyzing the Bundle Size
+4. Gained more knowledge about the overall process of making a react app. Deciding how many components to make and what exactly to include in each of them and why. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+- Github - [ivelinsm](https://github.com/ivelinsm)
+- freeCodeCamp - [@ivelinsm](https://www.freecodecamp.org/fcc927d30f9)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I would like to thank the whole freeCodeCamp community for the awesome and fun challenge.
